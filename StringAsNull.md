@@ -20,8 +20,8 @@ $
 If you get the count:
 
 ```powershell
-$ ([string]($null)).Count
-1
 $ ($null).Count
 0
+$ ([string]($null)).Count
+1 # Now it has a count after you converting that `null` to `string`.
 ```
