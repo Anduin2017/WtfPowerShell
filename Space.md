@@ -6,9 +6,11 @@ Now we have a and b.
 $a = $true;
 $b = $false; 
 $aAndB = $a -and $b
+
+return $aAndB;
 ```
 
-Which outputs True.
+Which outputs `False`.
 
 But make that command to two lines.
 
@@ -24,7 +26,7 @@ return $aAndB;
 Which outputs:
 
 ```text
-True
+False
 ```
 
 But if you add a space after
@@ -43,7 +45,7 @@ return $aAndB;
 Which outputs:
 
 ```text
-False
+True
 ```
 
 What a strange behavior of PowerShell!
