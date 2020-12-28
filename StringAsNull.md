@@ -25,3 +25,5 @@ $ ($null).Count
 $ ([string]($null)).Count
 1 # Now it has a count after you converting that `null` to `string`.
 ```
+
+What a strange behavior of PowerShell! 😲
