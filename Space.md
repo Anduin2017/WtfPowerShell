@@ -10,9 +10,9 @@ $aAndB = $a -and $b
 return $aAndB;
 ```
 
-Which outputs `False`.
+Which outputs `False`. Very correct.
 
-But make that command to two lines.
+Now make that command to two lines.
 
 ```powershell
 $a = $true;
@@ -36,7 +36,7 @@ But if you add a space after
 ```powershell
 $a = $true;
 $b = $false;
-$aAndB = $a ` <---- There is a pace
+$aAndB = $a ` <---- There is a space here
     -and $b
 
 return $aAndB;
