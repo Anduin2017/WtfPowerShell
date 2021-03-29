@@ -26,4 +26,17 @@ $ ([string]($null)).Count
 1 # Now it has a count after you converting that `null` to `string`.
 ```
 
+Event more:
+
+```powershell
+$ [int]$something = $null
+$ $something -eq $null
+```
+
+Which outputs:
+
+```
+False
+```
+
 What a strange behavior of PowerShell! 😲
