@@ -1,5 +1,6 @@
 # What the fuck with PowerShell
 
+* [Null is not null](Null-Is-Not-Null.md)
 * [Guess my type](Gusss-my-type.md)
 * [Condition sequence](Condition-Sequence.md)
 * [Convert to JSON with depth](Convert-To-Json-With-Depth.md)
