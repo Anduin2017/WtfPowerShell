@@ -1,5 +1,6 @@
 # What the fuck with PowerShell
 
+* [Strange File](File-Content.md)
 * [Contains](Contains.md)
 * [Null is not null](Null-Is-Not-Null.md)
 * [Guess my type](Gusss-my-type.md)
