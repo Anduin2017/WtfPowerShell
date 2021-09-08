@@ -15,3 +15,11 @@
 Simply add the strange behavior you found with PowerShell.
 
 Don't forget to fill your environment information!
+
+## More
+
+Those samples **Only** represents that the behavior of PowerShell is very counterintuitive, contradictory and confusing.
+
+Those are mistakes collected from real production environment and caused dollors mistake.
+
+Does NOT mean can NOT explain the reason why those sample happens.
