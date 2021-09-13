@@ -3,29 +3,13 @@
 Now we have some fruit.
 
 ```powershell
-$fruit = @('Apples','Oranges','Bananas')
+$fruits = @('Apple','Orange','Banana')
 ```
 
-And write a simple method:
+Of course, `Apple` is a fruit. Not `fruits`:
 
 ```powershell
-if ($fruit -eq 'Apples') {
-    echo 'True!'
-} else {
-    echo 'False!'
-}
-```
-
-Which outputs:
-
-```text
-True!
-```
-
-But if you invert the condition:
-
-```powershell
-if ('Apples' -eq $fruit) {
+if ('Apple' -eq $fruits) {
     echo 'True!'
 } else {
     echo 'False!'
@@ -36,6 +20,22 @@ Which outputs:
 
 ```text
 False!
+```
+
+But is `$fruits` Apple?
+
+```powershell
+if ($fruits -eq 'Apple') {
+    echo 'True!'
+} else {
+    echo 'False!'
+}
+```
+
+Which outputs:
+
+```text
+True!
 ```
 
 What a strange behavior of PowerShell!
