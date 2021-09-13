@@ -1,4 +1,4 @@
-# What the fuck with PowerShell
+# What the f*** with PowerShell
 
 * [Strange File](File-Content.md)
 * [Contains](Contains.md)
