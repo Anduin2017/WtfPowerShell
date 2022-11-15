@@ -11,6 +11,7 @@
 * [Strange File](File-Content.md)
 * [Not False is False?](Not-false.md)
 * [Argument passing](Argument-Passing.md)
+* [Return value](Return-Value.md)
 
 ## How to contribute
 
