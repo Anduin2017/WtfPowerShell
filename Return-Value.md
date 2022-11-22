@@ -33,4 +33,6 @@ True     True     Object[]                                 System.Array
 
 The return value of a PowerShell function would be all the return values of the sub-functions called by this function. The `return` keyword does nothing other than terminating the function execution. This is by design.
 
-If yoy don't wish the return value of a sub-function to be included, be sure to guard it with `Write-Host` or `Out-Null`.
+If you don't wish the return value of a sub-function to be included, be sure to guard it with `Write-Host` or `Out-Null`.
+
+> Repro env: Windows 11 22H2, PowerShell Core 7.3.0

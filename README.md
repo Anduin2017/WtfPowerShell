@@ -12,6 +12,7 @@
 * [Not False is False?](Not-false.md)
 * [Argument passing](Argument-Passing.md)
 * [Return value](Return-Value.md)
+* [Currying](Currying.md)
 
 ## How to contribute
 
