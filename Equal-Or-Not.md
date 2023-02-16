@@ -42,7 +42,7 @@ The underlying fact is, in PowerShell, **`-eq` operator does NOT satisfy the com
 
 Variables in PowerShell could be divided into two types:
 
-- **Scalar**: if the variable only contains a single value (an `int`)
+- **Scalar**: if the variable only contains a single value (e.g. a `string`)
 - **Collection**: if the variable contains multiple values (e.g. an array of `string`)
 
 And the return value of `-eq` is different based on the type of the left-hand value. If the left-hand value and the right-hand value have different type of data type (scalar or collection), the right-hand value will be casted to match the type of the left-hand value.

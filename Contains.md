@@ -20,9 +20,9 @@ But if you try:
 
 Now the expression will evaluate to `$true`.
 
-This is because `-contains` is an operator on collection, and `.Contains` is `String.Contains` method in .NET that operates on `string`.
+This is because `-Contains` is an operator on collection, while `.Contains()` refers to `String.Contains` method in .NET which operates on `string`.
 
-And, in PowerShell, `string` is not seen as a collection of `char`.
+And, `string` is not seen as a collection of `char`.
 
 Bonus:
 
@@ -32,7 +32,7 @@ Bonus:
 
 Guess what, it evaluates to `true`.
 
-This is because `-Contains` could only be applied to a collection value, so the left-hand value `"12-18"` will to be casted to `String[]` and resulting in `@("12-18")`. From this point on, the behavior makes total sense.
+This is because `-Contains` could only be applied to a collection value, so the left-hand value `"12-18"` will to be casted to `string[]`, resulting in `@("12-18")`. From this point on, the behavior makes total sense.
 
 What a strange behavior of PowerShell! 😲
 
