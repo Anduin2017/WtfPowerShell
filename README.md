@@ -5,7 +5,7 @@
 * [Condition sequence](Condition-Sequence.md)
 * [Space after `](Space.md)
 * [Contains](Contains.md)
-* [Null is not null](Null-Is-Not-Null.md)
+* [Equal or not](Equal-Or-Not.md)
 * [Convert to JSON with depth](Convert-To-Json-With-Depth.md)
 * [String as null?](StringAsNull.md)
 * [Strange File](File-Content.md)
