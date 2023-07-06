@@ -10,6 +10,7 @@
 * [String as null?](StringAsNull.md)
 * [Strange File](File-Content.md)
 * [Not False is False?](Not-false.md)
+* [Not match is different than notmatch?](Not-match.md)
 * [Argument passing](Argument-Passing.md)
 * [Return value](Return-Value.md)
 * [Currying](Currying.md)
