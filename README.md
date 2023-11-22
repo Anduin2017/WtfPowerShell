@@ -1,5 +1,7 @@
 # What the f*** with PowerShell
 
+[![ManHours](https://manhours.aiursoft.cn/gitlab/gitlab.aiursoft.cn/anduin/wtfpowershell)](https://gitlab.aiursoft.cn/anduin/wtfpowershell/-/commits/master?ref_type=heads)
+
 * [From and To Json](From-And-To-Json.md)
 * [Guess my type](Gusss-my-type.md)
 * [Condition sequence](Condition-Sequence.md)
