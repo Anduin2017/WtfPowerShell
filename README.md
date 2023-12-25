@@ -8,6 +8,7 @@
 * [Space after `](Space.md)
 * [Contains](Contains.md)
 * [Equal or not](Equal-Or-Not.md)
+* [Last exit code](LastExitCode.md)
 * [Convert to JSON with depth](Convert-To-Json-With-Depth.md)
 * [String as null?](StringAsNull.md)
 * [Strange File](File-Content.md)
